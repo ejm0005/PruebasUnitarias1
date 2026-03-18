@@ -51,5 +51,13 @@ public class ValidadorRegistroTest {
     }
 
 
+    @Test
+    public void ejercicio5() {
+        int edad = 16;
+        boolean resultado = edad == 16;
+        assertTrue(resultado, "Error: El sistema rechazó un usuario que no tiene 16 años");
+    }
+
+
 
 }

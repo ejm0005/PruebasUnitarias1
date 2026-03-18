@@ -43,6 +43,13 @@ public class ValidadorRegistroTest {
     }
 
 
+    @Test
+    public void ejercicio4() {
+        String email = "usuario.gmail.com";
+        boolean resultado = email.contains("@");
+        assertFalse(resultado, "Error: El sistema rechazó una email válido");
+    }
+
 
 
 }

@@ -35,6 +35,13 @@ public class ValidadorRegistroTest {
         assertTrue(resultado, "Error: El sistema rechazó una contraseña inválida");
     }
 
+    @Test
+    public void ejercicio3() {
+        String contraseña = "Admin";
+        boolean resultado = contraseña.length() == 8;
+        assertFalse(resultado, "Error: El sistema rechazó una contraseña válida");
+    }
+
 
 
 

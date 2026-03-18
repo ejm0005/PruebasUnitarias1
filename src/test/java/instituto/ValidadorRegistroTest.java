@@ -28,5 +28,14 @@ public class ValidadorRegistroTest {
         assertFalse(resultado, "Error: El sistema rechazó un nombre válido");
     }
 
+    @Test
+    public void ejercicio2() {
+        String contraseña = "12345678";
+        boolean resultado = contraseña.length() == 8;
+        assertTrue(resultado, "Error: El sistema rechazó una contraseña inválida");
+    }
+
+
+
 
 }
